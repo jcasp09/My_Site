@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #d0d0d0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.tagline {
+    color: #888;
+    font-size: 0.95em;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #b0b0b0;
+    text-transform: lowercase;
+}
+
+p {
+    color: #c0c0c0;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+li {
+    padding-left: 20px;
+    margin-bottom: 8px;
+    color: #c0c0c0;
+    position: relative;
+}
+
+li:before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+
+.project {
+    padding: 15px;
+    background-color: #222;
+    border-left: 2px solid #444;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin: 0 0 8px 0;
+    color: #d0d0d0;
+    font-size: 1em;
+}
+
+.project p {
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.contact-list a {
+    color: #7a9fb5;
+    text-decoration: none;
+    border-bottom: 1px solid #7a9fb5;
+    transition: color 0.2s;
+}
+
+.contact-list a:hover {
+    color: #9ab5d0;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+}
